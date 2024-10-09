@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>דף הבית</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        .header {
+            text-align: right;
+            margin-bottom: 20px;
+            background-color: #007BFF;
+            color: white;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .header h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+        .menu {
+            display: flex;
+            justify-content: flex-end;
+            gap: 15px;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        .menu a {
+            text-decoration: none;
+            color: white;
+        }
+        .menu a:hover {
+            text-decoration: underline;
+        }
+        .main-title {
+            font-size: 42px;
+            color: rgb(72, 169, 196);
+            text-align: right;
+            margin-bottom: 20px;
+        }
+        .recommendations {
+            background-color: white;
+            border: 1px solid #d7d7d7;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .recommendations h2 {
+            font-size: 24px;
+            color: #007BFF;
+            margin: 0 0 10px 0;
+        }
+        .recommendation {
+            margin-bottom: 10px;
+        }
+        .recommendation p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>ברוכים הבאים!</h1>
+        <div class="menu">
+            <a href="#">דף הבית</a>
+            <a href="index.html">קטלוג הקורסים</a>
+            <a href="#">המלצות</a>
+            <a href="#">צור קשר</a>
+        </div>
+    </div>
+
+    <h1 class="main-title">דף הבית</h1>
+
+    <div class="recommendations">
+        <h2>המלצות</h2>
+        <div class="recommendation">
+            <p><strong>שירה כהן:</strong> "הקורסים היו מאוד מועילים וההדרכה הייתה מצוינת!"</p>
+        </div>
+        <div class="recommendation">
+            <p><strong>יוסי לוי:</strong> "ממליץ בחום על הקורסים, למדתי המון!"</p>
+        </div>
+        <div class="recommendation">
+            <p><strong>מאיה רוזן:</strong> "חוויה מעשירה, מומלץ לכל מי שמעוניין ללמוד!"</p>
+        </div>
+    </div>
+
+</body>
+</html>
